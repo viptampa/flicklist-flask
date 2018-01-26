@@ -1,5 +1,5 @@
 from flask import Flask
-from random import *
+from random import choice
 app = Flask(__name__)
 
 app.config['DEBUG'] = True      # displays runtime errors in the browser, too
