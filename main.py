@@ -18,8 +18,7 @@ def index():
     content += "<ul>"
     content += "<li>" + movie + "</li>"
     content += "</ul>"
-    
-    content = "<h1>Tomorrow's Movie</h1>"
+    content += "<h1>Tomorrow's Movie</h1>"
     content += "<ul>"
     content += "<li>" + movietom + "</li>"
     content += "</ul>"
@@ -34,7 +33,7 @@ def get_random_movie():
     # TODO: make a list with at least 5 movie titles
     movielist = ["The Matrix", "Willow", "Blade", "Transformers", "Frankenstein", "Wall-E", "Snow White"]
     # TODO: randomly choose one of the movies, and return it
-    randmovie = random.choice(movielist)
+    randmovie = choice(movielist)
     return randmovie
 
 
